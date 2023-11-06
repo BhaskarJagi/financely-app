@@ -1,0 +1,45 @@
+.navbar {
+  background-color: var(--theme);
+  padding: 1rem 1.5rem;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: var(--white);
+  font-weight: 500;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.link{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.link:hover{
+    opacity: 1;
+    transition: all 0.3s;
+}
+
+.img-container{
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.img-container img{
+  width: 2rem;
+  height: 2rem;
+  border-radius: 1rem;
+}
+
+.img-container img:hover{
+  transform: scale(1.5);
+  box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.5);
+  transition: all 0.2s;
+}
